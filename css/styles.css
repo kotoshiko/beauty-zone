@@ -1,0 +1,21 @@
+.main-title{
+    border: 4px solid black;
+}
+
+.button{
+    color: white;
+    background-color: blue;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.button:hover{
+    background-color: transparent;
+    color: blue;
+    border: 2px solid blue;
+}
+
+.button:focus{
+    background-color: green;
+    color: yellow;
+}
