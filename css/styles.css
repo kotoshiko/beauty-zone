@@ -1,5 +1,18 @@
-.main-title{
-    border: 4px solid black;
+:root{
+    --color-brand: #011C44;
+    --text-accent-color: #2B7FFF ;
+}
+
+body{
+    color: var(--color-brand);
+}
+ul{
+    list-style-type: none;
+}
+
+.hero-title{
+    color: var(--text-accent-color);
+    text-transform: uppercase;
 }
 
 .button{
@@ -15,7 +28,14 @@
     border: 2px solid blue;
 }
 
-.button:focus{
-    background-color: green;
-    color: yellow;
+.nav-link{
+    color: var(--color-brand);
+}
+
+.nav-link:hover{
+    color: var(--text-accent-color);
+}
+
+.section-title .accent{
+color: var(--text-accent-color);
 }
